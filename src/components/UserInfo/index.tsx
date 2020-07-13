@@ -1,5 +1,7 @@
 import React from 'react';
 
+import profile from '../../assets/profile.jpg';
+
 import {
   Container,
   Profile,
@@ -15,10 +17,10 @@ const UserInfo: React.FC = () => {
   return (
     <Container>
       <Profile>
-        <Avatar />
+        <Avatar src={profile} alt="User" />
         <UserData>
           <strong>Marcos Corsi</strong>
-          <span>#313</span>
+          <span>#0313</span>
         </UserData>
       </Profile>
 

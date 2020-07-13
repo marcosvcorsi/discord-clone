@@ -115,11 +115,11 @@ const ChannelData: React.FC = () => {
         />
 
         <ChannelMessage
-          author="Diego Fernandes"
+          author="CoolBot"
           date="12/07/2020"
           content={
             <>
-              <Mention>@Marcos Corsi</Mention>, isso aqui é um bot
+              <Mention>@Marcos Corsi</Mention>, OK!
             </>
           }
           isBot
